@@ -1,0 +1,94 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.navbar{
+  background-color: #ff6b4e; 
+}
+
+nav.navbar{
+  padding: 0px;
+}
+@media only screen and (min-width: 769px) {
+  .nav-item:hover{
+    background-color: #001011;
+  }
+}
+.nav-item{
+  text-align: center;
+}
+.lapimage{
+  background: linear-gradient(rgba(0, 0, 0, 0.396),rgba(0, 0, 0, 0.516)),url('./Images/pexels-caio-67112.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40vh;
+  background-size: cover;
+}
+
+@media only screen and (min-width:376px ) {
+  .lapimage{
+    height: 80vh;
+  }
+}
+@media only screen and (min-width:769px ) {
+  .lapimage{
+    height: 120vh;
+  }
+}
+.web{
+  font-size: 56px;
+  color: white;
+  font-style:oblique;
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+.quote{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-style:oblique;
+  font-weight: 600;
+  text-shadow: 1px 1px rgb(255, 0, 0);
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+@media screen and (max-width:375px) {
+  .web{
+    font-size: 16px;
+    
+  }
+  .quote{
+    font-size: 12px;
+  }
+}
+body[data-aos-duration="400"] [data-aos] {
+  transition-duration: 0.8s;
+}
+body[data-aos-duration="400"] [data-aos] {
+  transition-duration: 1.5s;
+}
+
+.aboutimage{
+  background: linear-gradient(rgba(0, 0, 0, 0.396),rgba(0, 0, 0, 0.516)),url('./Images/pexels-laura-tancredi-7078666.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40vh;
+  background-size: cover;
+}
+
+@media only screen and (min-width:376px ) {
+  .aboutimage{
+    height: 80vh;
+  }
+}
+@media only screen and (min-width:769px ) {
+  .aboutimage{
+    height: 120vh;
+  }
+}
+.abt{
+  color: #ff6b4e;
+  background-color: black;
+}
