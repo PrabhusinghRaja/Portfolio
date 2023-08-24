@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.7e8333ed.css",
-    "main.js": "/port/static/js/main.19e20295.js",
-    "static/js/787.f055211e.chunk.js": "/port/static/js/787.f055211e.chunk.js",
-    "static/media/pexels-laura-tancredi-7078666.jpg": "/port/static/media/pexels-laura-tancredi-7078666.30421501e87fd3aef40f.jpg",
-    "static/media/pexels-caio-67112.jpg": "/port/static/media/pexels-caio-67112.c3d5b8e30d7e9e187136.jpg",
-    "index.html": "/port/index.html",
-    "main.7e8333ed.css.map": "/port/static/css/main.7e8333ed.css.map",
-    "main.19e20295.js.map": "/port/static/js/main.19e20295.js.map",
-    "787.f055211e.chunk.js.map": "/port/static/js/787.f055211e.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.c69e2a45.css",
+    "main.js": "/portfolio/static/js/main.edd39a4b.js",
+    "static/js/787.f055211e.chunk.js": "/portfolio/static/js/787.f055211e.chunk.js",
+    "static/media/pexels-laura-tancredi-7078666.jpg": "/portfolio/static/media/pexels-laura-tancredi-7078666.30421501e87fd3aef40f.jpg",
+    "static/media/pexels-caio-67112.jpg": "/portfolio/static/media/pexels-caio-67112.c3d5b8e30d7e9e187136.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.c69e2a45.css.map": "/portfolio/static/css/main.c69e2a45.css.map",
+    "main.edd39a4b.js.map": "/portfolio/static/js/main.edd39a4b.js.map",
+    "787.f055211e.chunk.js.map": "/portfolio/static/js/787.f055211e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e8333ed.css",
-    "static/js/main.19e20295.js"
+    "static/css/main.c69e2a45.css",
+    "static/js/main.edd39a4b.js"
   ]
 }
