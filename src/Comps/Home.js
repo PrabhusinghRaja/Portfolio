@@ -7,15 +7,13 @@ const Home = () => {
         AOS.init();
     },[])
     return (
-        <div data-aos="zoom-in" className="lapimage d-flex flex-column justify-content-center align-items-center">
-            <p className="web p-2" data-aos="fade-right">Web Developer</p>
+        <div id="home" data-aos="zoom-in" data-aos-duration="2000" className="lapimage d-flex flex-column justify-content-center align-items-center">
+            <p className="web p-2" data-aos="fade-right" data-aos-duration="2000">Web Developer</p>
 
-            <p className="quote p-2" data-aos="fade-left">
+            <p className="quote p-2" data-aos="fade-left" data-aos-duration="2000">
                 There is always one more bug to fix. <span className="">-Ellen Ullman</span>
             </p>
-            <form action="mailto:rajaprabhusingh@gmail.com" method="post">
-            <button className="btn btn-danger">Hire me</button>
-            </form>
+            <a href="mailto:rajaprabhusingh@gmail.com" className="btn btn-danger" >Hire me</a>
         </div>
     );
 };

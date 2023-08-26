@@ -1,6 +1,6 @@
 
 .navbar{
-  background-color: #ff6b4e; 
+  background-color: #001011; 
 }
 
 nav.navbar{
@@ -8,7 +8,7 @@ nav.navbar{
 }
 @media only screen and (min-width: 769px) {
   .nav-item:hover{
-    background-color: #001011;
+    background-color: #dc3545;
   }
 }
 .nav-item{
@@ -46,7 +46,7 @@ nav.navbar{
   color: rgb(255, 255, 255);
   font-style:oblique;
   font-weight: 600;
-  text-shadow: 1px 1px rgb(255, 0, 0);
+  text-shadow: 1px 1px #dc3545;
   letter-spacing: 2px;
   word-spacing: 5px;
 }
@@ -66,20 +66,20 @@ nav.navbar{
 }
 .about{
   background-color: rgb(227, 227, 227);
-  border: 4px solid #ff6b4e;
+  border: 4px solid #001011;
 
 }
 .portfolio{
   background-color: bisque;
-  border: 4px solid #ff6b4e;
+  border: 4px solid #001011;
   border-top: none
 }
 .git{
   text-decoration: none;
-  color: rgb(67, 67, 255);
+  color: red;
 }
 .git:hover{
-  color: red;
+  color: rgb(67, 67, 255);
 }
 .ul li {
   list-style: none;
@@ -95,20 +95,26 @@ nav.navbar{
 }
 .ul li a{
   text-decoration: none;
-  color: brown;
+  color: rgb(253, 25, 25);
 }
 .ul li a:hover{
-  color: rgb(126, 143, 255);
+  color: rgb(4, 38, 255);
 }
 .contact{
   background-color: rgb(227, 227, 227);
-  border: 4px solid #ff6b4e;
+  border: 4px solid #001011;
   border-top: none
 }
 .whatsapp:hover{
   color: green;
 }
 .footer{
-  background-color: #ff6b4e;
+  background-color: #001011;
   height: 5vh;
+}
+.navbar-brand{
+  cursor: pointer;
+}
+.navbar-nav li{
+  cursor: pointer;
 }
